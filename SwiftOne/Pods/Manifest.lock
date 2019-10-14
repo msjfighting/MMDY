@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CLImagePickerTool (3.0.9)
+  - HandyJSON (5.0.0)
+  - Kingfisher (5.7.0)
+  - SnapKit (5.0.0)
+  - SwiftMessages (7.0.0):
+    - SwiftMessages/App (= 7.0.0)
+  - SwiftMessages/App (7.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CLImagePickerTool (from `https://github.com/Darren-chenchen/CLImagePickerTool.git`)
+  - HandyJSON
+  - Kingfisher
+  - SnapKit (~> 5.0.0)
+  - SwiftMessages
+
+EXTERNAL SOURCES:
+  CLImagePickerTool:
+    :git: https://github.com/Darren-chenchen/CLImagePickerTool.git
+
+CHECKOUT OPTIONS:
+  CLImagePickerTool:
+    :commit: 896f18db24a578cabcf230d76e52cd5d571cc741
+    :git: https://github.com/Darren-chenchen/CLImagePickerTool.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CLImagePickerTool: e6f8c1703367556361bc2e72307f2c248a77bcce
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftMessages: a952f7a9103d9aeab93730a2861d2d8fcdd8758f
+
+PODFILE CHECKSUM: 5e5c21c132dad8d5552c3c6c6c90b53a648daf69
+
+COCOAPODS: 1.4.0

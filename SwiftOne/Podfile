@@ -1,0 +1,27 @@
+
+platform :ios, '10.0'
+
+target 'SwiftOne' do
+  use_frameworks!
+  
+# 网络请求
+  pod 'Alamofire'
+  
+#  数据解析
+  pod 'HandyJSON'
+  
+#  类似于 oc Masonry UI布局
+  pod 'SnapKit', '~> 5.0.0'
+  
+#  提示框
+  pod 'SwiftMessages'
+  
+#  图片加载
+  pod 'Kingfisher'
+#  图片选择器
+  pod 'CLImagePickerTool', :git => 'https://github.com/Darren-chenchen/CLImagePickerTool.git'
+  
+#  tabbar
+# pod "ESTabBarController-swift"
+
+end
