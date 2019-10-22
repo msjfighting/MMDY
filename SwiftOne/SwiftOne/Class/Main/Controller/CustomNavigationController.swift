@@ -20,14 +20,6 @@ class CustomNavigationController: UINavigationController {
         guard let gesView = systemGes.view else {return}
         
         // 获取系统手势的target&action
-        // 运行时机制查看属性名称
-//        var count : UInt32 = 0
-//        let ivars = class_copyIvarList(UIGestureRecognizer.self, &count)!
-//        for j in 0..<count {
-//            let ivar = ivars[Int(j)]
-//            let name = ivar_getName(ivar)
-//            print(name as Any)
-//        }
         let targets = systemGes.value(forKey: "_targets") as? [AnyObject]
         guard let targetObj = targets?.first else {return}
         guard let target = targetObj.value(forKey: "target") else {return}
